@@ -1,0 +1,1 @@
+#let abstract = "This is the abstract of the thesis."
