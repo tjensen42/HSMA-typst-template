@@ -20,7 +20,7 @@
 // Front pages
 //
 
-#include "pages/titelpage.typ"
+#include "pages/titlepage.typ"
 
 #set page(numbering: "I", number-align: numbering-alignment)
 #counter(page).update(1)
