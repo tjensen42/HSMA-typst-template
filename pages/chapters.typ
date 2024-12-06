@@ -1,9 +1,9 @@
 #import "@preview/codelst:2.0.2": *
 
-#import "lib/acronym-lib.typ": acr, acrpl, acrs, acrspl, acrl, acrlpl, acrf, acrfpl
-#import "lib/glossary-lib.typ": gls
+#import "../lib/acronym-lib.typ": acr, acrpl, acrs, acrspl, acrl, acrlpl, acrf, acrfpl
+#import "../lib/glossary-lib.typ": gls
 
-#import "template.typ": *
+#import "../template.typ": *
 #context bib_state.get()
 
 = Introduction
@@ -50,7 +50,7 @@ Create figures or tables like this:
 
 === Figures
 
-#figure(caption: "Image Example", image(width: 4cm, "assets/logo_hochschule_mannheim_farbe.svg"))
+#figure(caption: "Image Example", image(width: 4cm, "../assets/logo_hochschule_mannheim_farbe.svg"))
 
 === Tables
 

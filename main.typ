@@ -1,8 +1,8 @@
 #import "lib/acronym-lib.typ": init-acronyms, print-acronyms,
 #import "lib/glossary-lib.typ": init-glossary, print-glossary
 
-#import "acronyms.typ": acronyms
-#import "glossary.typ": glossary
+#import "pages/acronyms.typ": acronyms
+#import "pages/glossary.typ": glossary
 #import "template.typ": *
 
 #show: template
@@ -53,7 +53,7 @@
     it
   }
 
-  include "content.typ"
+  include "pages/chapters.typ"
 
   pagebreak(weak: true)
 }
