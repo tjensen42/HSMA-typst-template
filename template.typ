@@ -44,20 +44,14 @@
 
       let heading-last = headings.last()
       let heading-counter = counter(heading).get()
-      let header-txt = none
+      let header-txt = str("")
 
-      if heading-last.supplement != none {
-        header-txt += [#heading-last.supplement ]
-      }
       if heading-last.numbering != none {
-        header-txt += [#numbering(heading-last.numbering, heading-counter.first()) ]
-      }
-      if header-txt != none {
-        header-txt += [ -- ]
+        header-txt += [#heading-last.supplement #numbering(heading-last.numbering, heading-counter.first()) -- ]
       }
       header-txt += heading-last.body
 
-      set text(style: "italic")
+      // set text(style: "italic", weight: "semibold", 1em)
       set align(center)
       stack(
         dir: ttb,
