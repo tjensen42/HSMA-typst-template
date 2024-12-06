@@ -21,3 +21,14 @@
     text
   }
 }
+
+// Workaround for https://github.com/typst/typst/issues/2722
+#let is-page-empty() = {
+  let page-num = here().page()
+  query(<empty-page-start>)
+    .zip(query(<empty-page-end>))
+    .any(((start, end)) => {
+      (start.location().page() < page-num
+        and page-num < end.location().page())
+    })
+}

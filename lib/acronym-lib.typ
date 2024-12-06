@@ -1,4 +1,3 @@
-#import "locale.typ" : ACRONYMS
 #import "shared-lib.typ" : display, display-link, is-in-dict
 
 #let prefix = "acronym-state-"
@@ -93,9 +92,7 @@
   acr(acronym, plural: true, link: link)
 }
 
-#let print-acronyms(language, acronym-spacing) = {
-  heading(level: 1, outlined: false, numbering: none)[#ACRONYMS.at(language)]
-
+#let print-acronyms(acronym-spacing) = {
   acros.display(acronyms => {
     let acronym-keys = acronyms.keys()
 
