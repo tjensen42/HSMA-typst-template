@@ -6,6 +6,8 @@
 
 #let heading-font = "New Computer Modern"
 #let body-font = "New Computer Modern"
+// #let heading-font = "libertinus serif"
+// #let body-font = "libertinus serif"
 
 #let body-text-size = 12pt;
 #let numbering-alignment = center
