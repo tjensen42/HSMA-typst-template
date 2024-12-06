@@ -24,21 +24,28 @@
 
 #v(3em)
 
-#align(center)[
-  #par(leading: 0.8em)[
-    Bachelor-Thesis \
-    zur Erlangung des akademischen Grades Bachelor of Science (B.Sc.) \
-    Studiengang Informatik
-  ]
-]
-
+#align(center,
+  if degree == "Bachelor" {
+    par(leading: 0.9em)[
+      #text(weight: "semibold")[Bachelor-Thesis] \
+      #text()[zur Erlangung des akademischen Grades Bachelor of Science (B.Sc.)] \
+      Studiengang #course
+    ]
+  } else {
+    par(leading: 0.8em)[
+      #text(weight: "semibold")[Master-Thesis] \
+      #text()[zur Erlangung des akademischen Grades Master of Science (M.Sc.)] \
+      Studiengang #course
+    ]
+  }
+)
 
 #v(3em)
 
 #align(center)[
   #par(leading: 0.8em)[
-    Fakultät für Informatik \
-    Hochschule Mannheim
+    #faculty \
+    #university
   ]
 ]
 
@@ -52,8 +59,8 @@
 #align(bottom + center)[
   #par(leading: 0.8em)[
     #text(weight: "semibold", "Betreuer") \
-    Prof. Peter Mustermann, Hochschule Mannheim \
-    Erika Mustermann, Paukenschlag GmbH
+    #supervisor-hs \
+    #supervisor-company
   ]
 ]
 

@@ -4,6 +4,13 @@
 #let author = "Max Mustermann"
 #let date = datetime.today()
 
+#let degree = "Master" // "Bachelor"
+#let course = "Informatik"
+#let faculty = "Fakultät für Informatik"
+#let university = "Hochschule Mannheim"
+#let supervisor-hs = "Prof. Peter Mustermann, Hochschule Mannheim"
+#let supervisor-company = "Erika Mustermann, Paukenschlag GmbH"
+
 #let heading-font = "New Computer Modern"
 #let body-font = "New Computer Modern"
 // #let heading-font = "libertinus serif"
