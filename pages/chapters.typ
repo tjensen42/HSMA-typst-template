@@ -20,11 +20,11 @@
 
 == Acronyms
 
-Use the `acr` function to insert acronyms, which looks like this #acr("HTTP").
+Use the `acr` function to insert acronyms, which looks like this #acr("HTTP") the first time and like this #acr("HTTP") the second time .
 
 #acrlpl("API") are used to define the interaction between different software systems.
 
-#acrs("REST") is an architectural style for networked applications.
+#acrs("REST") (`acrs` for short form) is an architectural style for networked applications.
 
 == Glossary
 

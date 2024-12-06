@@ -7,7 +7,6 @@
   glossary-state.update(glossary)
 }
 
-// Display acronym. Expands it if used for the first time
 #let gls(element, link: true) = {
   display("glossary", glossary-state, element, element, link: link)
 }
