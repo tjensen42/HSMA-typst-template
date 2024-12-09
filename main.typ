@@ -25,6 +25,7 @@
 #set page(numbering: "I", number-align: numbering-alignment)
 #counter(page).update(1)
 
+#include "pages/reading-information.typ"
 #include "pages/declaration-of-authorship.typ"
 #include "pages/abstract.typ"
 
