@@ -11,10 +11,8 @@
 #let supervisor-hs = "Prof. Peter Mustermann, Hochschule Mannheim"
 #let supervisor-company = "Erika Mustermann, Paukenschlag GmbH"
 
-#let heading-font = "New Computer Modern"
-#let body-font = "New Computer Modern"
-// #let heading-font = "libertinus serif"
-// #let body-font = "libertinus serif"
+#let heading-font = "Latin Modern Sans" // like HSMA: "Arial"
+#let body-font = "New Computer Modern" // "libertinus serif"
 
 #let body-text-size = 12pt;
 #let numbering-alignment = center
