@@ -4,6 +4,9 @@
 #let author = "Max Mustermann"
 #let date = datetime.today()
 
+#let logo-left = image("assets/logo_hochschule_mannheim_farbe.svg")
+#let logo-right = none
+
 #let degree = "Master" // "Bachelor"
 #let course = "Informatik"
 #let faculty = "Fakultät für Informatik"

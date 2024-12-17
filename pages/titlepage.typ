@@ -3,8 +3,18 @@
 #let titelpage-font-size = 14pt
 #set text(size: titelpage-font-size)
 
-#set image(height: 2.2cm)
-#align(left, image("../assets/logo_hochschule_mannheim_farbe.svg"))
+#stack(
+  dir: ltr,
+  spacing: 1fr,
+  if logo-left != none {
+    set image(height: 2cm)
+    logo-left
+  },
+  if logo-right != none {
+    set image(height: 2cm)
+    logo-right
+  }
+)
 
 #v(4em)
 
