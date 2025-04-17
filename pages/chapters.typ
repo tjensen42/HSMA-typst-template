@@ -50,7 +50,7 @@ Create figures or tables like this:
 
 === Figures
 
-#figure(caption: "Image Example", image(width: 4cm, "../assets/logo_hochschule_mannheim_farbe.svg"))
+#figure(caption: "Image Example", image(width: 4cm, "../assets/TH_Mannheim_Logo_CMYK_blau.svg"))
 
 === Tables
 

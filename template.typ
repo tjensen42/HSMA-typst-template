@@ -4,14 +4,14 @@
 #let author = "Max Mustermann"
 #let date = datetime.today()
 
-#let logo-left = image("assets/logo_hochschule_mannheim_farbe.svg")
+#let logo-left = image("assets/TH_Mannheim_Logo_CMYK_blau.svg")
 #let logo-right = none
 
 #let degree = "Master" // "Bachelor"
 #let course = "Informatik"
 #let faculty = "Fakultät für Informatik"
-#let university = "Hochschule Mannheim"
-#let supervisor-hs = "Prof. Peter Mustermann, Hochschule Mannheim"
+#let university = "Technische Hochschule Mannheim"
+#let supervisor-hs = "Prof. Peter Mustermann, Technische Hochschule Mannheim"
 #let supervisor-company = "Erika Mustermann, Paukenschlag GmbH"
 
 #let heading-font = "Latin Modern Sans" // like HSMA: "Arial"
