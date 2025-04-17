@@ -17,7 +17,7 @@
 #let heading-font = "Latin Modern Sans" // like HSMA: "Arial"
 #let body-font = "New Computer Modern" // "libertinus serif"
 
-#let body-text-size = 12pt;
+#let body-text-size = 12pt
 #let numbering-alignment = center
 
 // Workaround for "Using sub-files imported into main file, while citing a single bibliography."
@@ -77,8 +77,6 @@
 
   set par(justify: true, leading: 0.75em)
   show raw.where(block: true): set par(justify: false)
-
-  set block(spacing: 2em)
 
   set figure.caption(separator: [ --- ], position: bottom)
   show figure: set block(breakable: true)

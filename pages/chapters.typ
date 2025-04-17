@@ -28,9 +28,7 @@ Use the `acr` function to insert acronyms, which looks like this #acr("HTTP") th
 
 == Glossary
 
-Use the `gls` function to insert glossary terms, which looks like this:
-
-A #gls("Vulnerability") is a weakness in a system that can be exploited.
+Use the `gls` function to insert glossary terms, which looks like this: A #gls("Vulnerability") is a weakness in a system that can be exploited.
 
 == Lists
 

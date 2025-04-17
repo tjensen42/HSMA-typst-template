@@ -33,7 +33,7 @@
 #context {
   heading("Inhaltsverzeichnis", supplement: none, outlined: false)
   show outline.entry.where(level: 1): it => {
-    v(14pt, weak: true)
+    v(1.2em, weak: true)
     strong(it, delta: 200)
   }
   outline(title: none, indent: auto, depth: 3)
