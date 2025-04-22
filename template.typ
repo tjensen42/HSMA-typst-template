@@ -1,7 +1,7 @@
 #import "lib/shared-lib.typ": is-page-empty
 
 #let title = "Einsatz eines Flux-Kompensators für Zeitreisen mit einer maximalen Höchstgeschwindigkeit von WARP 7"
-#let author = "Max Mustermann"
+#let authors = ("Max Mustermann",) // Note: The array of length one needs a trailing comma, as in (1,).
 #let date = datetime.today()
 
 #let logo-left = image("assets/TH_Mannheim_Logo_CMYK_blau.svg")
@@ -29,7 +29,7 @@
 //
 
 #let template = body => {
-  set document(title:title, author: author, date: date)
+  set document(title:title, author: authors, date: date)
 
   set page(
     number-align: numbering-alignment,

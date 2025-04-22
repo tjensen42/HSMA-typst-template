@@ -1,4 +1,4 @@
-#import "../template.typ": author, date
+#import "../template.typ": authors, date
 
 #heading(outlined: false, "Selbstständigkeitserklärung")
 
@@ -14,6 +14,8 @@ Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst un
 #align(left, image("../assets/unterschrift.png", height: 1cm))
 
 
-#text(author)
+#for author in authors [
+  #align(left, text(author))
+]
 
 #pagebreak(weak: true)

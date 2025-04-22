@@ -30,7 +30,9 @@
 
 #v(3.5em)
 
-#align(center, text(weight: "semibold", author))
+#for author in authors [
+  #align(center, text(weight: "semibold", author))
+]
 
 #v(3em)
 
