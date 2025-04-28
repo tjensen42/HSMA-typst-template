@@ -133,6 +133,12 @@
 }
 
 #context {
+  heading("Hilfsmittelverzeichnis", supplement: none) // List of Tools and Resources
+  include "pages/tools-and-resources.typ"
+  pagebreak(weak: true)
+}
+
+#context {
   heading("Literatur", supplement: none)
   bibliography("sources.bib", title: none)
   pagebreak(weak: true)
